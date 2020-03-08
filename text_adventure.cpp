@@ -1,4 +1,13 @@
 /*
+DISCLAIMER:
+------------------------------------------------------------------------------------------------------------------
+This is a very rough implementation of a simple text-based adventure game and there are bound to be several bugs.
+You can see where my thoughts are in the below comments to get a feel of what still needs to be done.
+This was my first real dive into a fun project while starting to learn how to code!
+I hope you enjoy!
+------------------------------------------------------------------------------------------------------------------
+
+
 What do I need to do?
 - Make sure to take care of the potential death of a player while not in a fight
 - Decide if you want to make some of the fights more intense based on the enemy the player is fighting
@@ -56,7 +65,6 @@ void fight(player& player1, player& enemy); // Function handling battles between
 // Main function where game plays
 int main()
 {
-	showProgramHeader();
 	srand(time(NULL));
 	player player1;
 	player enemy;
@@ -72,14 +80,6 @@ int main()
 	std::cout << "Press Enter to exit the program\n";
 	std::cin.ignore();
 	return 0;
-}
-
-void showProgramHeader()
-{
-	std::cout << "David Elder Waters\n"
-		<< "CS 120 HW7\n"
-		<< "3/8/2019\n"
-		<< "HW7\n\n";
 }
 
 // Initialization function to setup the game properly
