@@ -1,9 +1,9 @@
 /*	msh.c
 
-	David Elder Waters
-	02/16/2020
-	CS 240
-	Assignment 2
+	A simple shell in C for Linux environments.
+	Please note several key functionalities are still being implemented and as such, currently don't work.
+	Some examples include cd, !, |, etc. for commands that do not work at present.
+	To exit the shell, type "exit"
 */
 
 
