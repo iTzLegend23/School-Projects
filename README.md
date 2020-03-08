@@ -1,4 +1,4 @@
-# School Project
+# School Projects
 Interesting projects completed during Computer Science course work.
 
 This repository contains relevant coding projects completed throughout my Computer Science course work.
