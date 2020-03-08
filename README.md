@@ -12,3 +12,8 @@ text_adventure.cpp
 - Bound to have some bugs still.
 - First sizable project that I tackled while learning to code!
 
+msh.c
+- A simple shell in C for Linux environments.
+- Some commands still need to be implemented, such as cd, !, and | for example, and will be added later.
+- To exit msh, type "exit"
+
