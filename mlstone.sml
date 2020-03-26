@@ -1,10 +1,5 @@
 (* mlstone.sml
 
-   MLStone Card format:
-   ( cost, spellp, name, attack, health )
-     int,  T/F,    string, int,  int
-           T for spells          only for spells if heals -- I don't think I will make any of these type though
-
 Game Play Loop:
 -----------------------------------------------------------------------------
    set turn to 1
