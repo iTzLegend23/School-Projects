@@ -17,3 +17,7 @@ msh.c
 - Some commands still need to be implemented, such as cd, !, and | for example, and will be added later.
 - To exit msh, type "exit"
 
+mlstone.sml
+- A cheesy text-based version of a card game like Hearthstone
+- Created in ML using the SMLNJ interpreter
+- Tested and run in a Linux environment, so it may need some tweaking to work elsewhere
