@@ -14,8 +14,14 @@ text_adventure.cpp
 
 msh.c
 - A simple shell in C for Linux environments.
-- Some commands still need to be implemented, such as cd, !, and | for example, and will be added later.
+- Some commands still need to be implemented, such as ! for example, and will be added later.
 - To exit msh, type "exit"
+- Now supports single use of ; or |
+- Local aliases have been added: there are still some bugs in this section of the code so tread lightly for the time being
+- Path updating supported
+- History will now show with the command 'history'
+- If you include a file named 'mshrc' in the same directory as the executable once compiled, it will run the commands found in mshrc
+- More features and support to come!
 
 mlstone.sml
 - A cheesy text-based version of a card game like Hearthstone
